@@ -5,5 +5,5 @@ def my_collect(arr)
     yield newArray.push(arr[n])
     n += 1
   end
-  arr
+  newArray
 end
