@@ -1,9 +1,9 @@
 def my_collect(arr)
   n = 0
-  newArrayz = []
+  new_arrayz = []
   while n < arr.length
     yield newArray << arr[n]
     n += 1
   end
-  newArrayz
+  new_arrayz
 end
